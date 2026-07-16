@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url('Image/desktop/image-header.jpg');
+    height: 800px;
+}
