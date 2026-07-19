@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="./image/favicon-32x32.png">
-    <title>Agency Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">        
 </head>
 <body>
     <header>
@@ -13,46 +15,48 @@
             <div class="logo">
                 <img src="Image/logo.svg" alt="Logo" aria-hidden="true" />
             </div>
-            <div class="button">
-                <button>About</button>
-                <button>Service</button>
-                <button>Projects</button>
-                <button>Contact</button>
+            <div class="menu-button">
+                <button class="button">About</button>
+                <button class="button">Service</button>
+                <button class="button">Projects</button>
+                <button class="special-button">Contact</button>
             </div>
         </section>
-        <section>
+        <section class="menu-description">
             <h1>WE ARE CREATIVES</h1>
             <img src="Image/icon-arrow-down.svg" alt="arrow down" aria-hidden="true" />
         </section>
     </header>
-    <section class="transform">
-        <div>
+    <section class="services">
+        <div class="service-content">
             <h1>Transform your brand</h1>
             <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-            <button>Learn More</button>
+            <button class="learn-more learn-more--yellow">Learn More</button>
         </div>
-        <div>
+        <div class="transform-image">
             <img src="./Image/desktop/image-transform.jpg" alt="image-transform" aria-hidden="true" />
         </div>
-    </section>
-    <section class="Stand-out">
-        <div>
+        <div class="stand-out-image">
             <img src="./Image/desktop/image-stand-out.jpg" alt="image-stand-out" aria-hidden="true" />
         </div>
-        <div>
+        <div class="service-content">
             <h1>Stand out to the right audience</h1>
             <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
-            <button>Learn More</button>
+            <button class="learn-more learn-more--red">Learn More</button>
         </div>
-    </section>
-    <section class="Graphic-Design">
-        <h1>Graphic Design</h1>
-        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-    </section>
-    <section class="Photography">
-        <h1>Photography</h1>
-        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-    </section>
+        <div class="graphic-design">
+            <div class="graphic-design-content">
+                <h1>Graphic Design</h1>
+                <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+            </div>
+        </div>
+        <div class="photography">
+            <div class="photogrpahy-content">
+                <h1>Photography</h1>
+                <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </div>
+        </div>
+    </section> 
     <section class="testimonial">
         <div>
             <img src="Image/image-emily.jpg" alt="emily photo" aria-hidden="true" />
