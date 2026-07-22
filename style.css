@@ -162,16 +162,102 @@ header {
 .graphic-design {
     background-image: url('Image/desktop/image-graphic-design.jpg');
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
+}
+
+.graphic-design-content {
+    width: 339px;
+    text-align: center;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.graphic-design-content > h1 {
+    font-family: "Fraunces", sans-serif;
+    font-size: 28px;
+    line-height: 1.25;
+    letter-spacing: 0px;
+    font-weight: 900px;
+    color: #24554A;
+}
+
+.graphic-design-content > p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.70;
+    letter-spacing: 0px;
+    color: #3E7467;
 }
 
 .photography {
     background-image: url('Image/desktop/image-photography.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
-.photogrpahy-content {
-    width: 445px;
-    margin-bottom: 100px;
+.photography-content {
+    width: 339px;
+    margin-bottom: 64px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.photography-content > h1 {
+    font-family: "Fraunces", sans-serif;
+    font-size: 28px;
+    line-height: 1.25;
+    letter-spacing: 0px;
+    font-weight: 900px;
+    color: #052C3B;
+}
+
+.photography-content > p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.70;
+    letter-spacing: 0px;
+    color: #19536C;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-main {
+    border: 1px solid black;
+    width: 1134px;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.testimonial-content {
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 40px;
+}
+
+.content-1 img, .content-2 img, .content-3 img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.content-1, .content-2, .content-3 {
+   
 }
