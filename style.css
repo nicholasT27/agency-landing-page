@@ -305,4 +305,55 @@ header {
     color: #A7AAAD;
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #90D4C6;
+}
+
+.footer-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    color: #24554A;
+    width: 170px;
+    height: 33px;
+    stroke: black;
+    stroke-width: 0.5px;
+}
+
+.footer-link {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    line-height: 1.65;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #458D7E;
+}
+
+.footer-img {
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+
 
