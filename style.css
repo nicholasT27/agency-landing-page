@@ -50,6 +50,12 @@ header {
     color: #24303E;
 }
 
+.special-button:active {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.25); /* faded background only */
+    color: #FFFFFF; /* text stays fully opaque */
+}
+
 .menu-description {
     display: flex;
     align-items: center;
