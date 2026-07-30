@@ -140,8 +140,16 @@ header {
     background: #FAD400;
 }
 
+.learn-more--yellow:active::after {
+    opacity: 1;
+}
+
 .learn-more--red::after {
     background: #FE7766;
+}
+
+.learn-more--red:active::after {
+    opacity: 1;
 }
 
 .transform-image,
@@ -356,10 +364,30 @@ footer {
     color: #458D7E;
 }
 
-.footer-img {
+.footer-link p:active {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer-icon {
     margin-top: 80px;
     display: flex;
     gap: 20px;
+    color:#24554A;
 }
 
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #6a9f8e; /* teal square */
+  border-radius: 4px; /* slightly rounded corners like the screenshot */
+}
+
+.icon-1:active, .icon-2:active, .icon-3:active, .icon-4:active {
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
